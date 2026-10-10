@@ -3,20 +3,283 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JahangirCoin | $JAHANGIR</title>
+  <meta name="theme-color" content="#080d1b">
+
+  <title>JahangirCoin (JAH) | Official Website</title>
+
+  <meta name="description" content="Welcome to JahangirCoin (JAH), an independent community-driven crypto project. Explore the project vision, roadmap, and official updates.">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #080d1b;
+      color: #ffffff;
+      line-height: 1.7;
+    }
+
+    header {
+      padding: 22px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #1d2942;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #64e6ff;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin-left: 18px;
+      font-size: 14px;
+    }
+
+    .hero {
+      min-height: 75vh;
+      padding: 80px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: radial-gradient(circle at top, #172c50, #080d1b 65%);
+    }
+
+    .coin {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 42px;
+      font-weight: bold;
+      color: #07111e;
+      background: linear-gradient(135deg, #a8f5ff, #36b9e8, #ffffff);
+      box-shadow: 0 0 45px #36b9e855;
+      margin-bottom: 28px;
+    }
+
+    h1 {
+      font-size: clamp(36px, 7vw, 65px);
+      margin-bottom: 12px;
+    }
+
+    h1 span {
+      color: #64e6ff;
+    }
+
+    .hero p {
+      max-width: 650px;
+      color: #bdc9dc;
+      font-size: 17px;
+      margin-bottom: 28px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #64e6ff;
+      color: #07111e;
+      padding: 12px 25px;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      margin: 5px;
+    }
+
+    .button.secondary {
+      background: transparent;
+      color: #ffffff;
+      border: 1px solid #52647f;
+    }
+
+    section {
+      padding: 65px 8%;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 32px;
+      margin-bottom: 30px;
+    }
+
+    .section-title span {
+      color: #64e6ff;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      padding: 25px;
+      border-radius: 14px;
+      background: #101a2d;
+      border: 1px solid #24334d;
+    }
+
+    .card h3 {
+      color: #64e6ff;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #bdc9dc;
+    }
+
+    .notice {
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+      color: #bdc9dc;
+    }
+
+    footer {
+      padding: 30px 20px;
+      text-align: center;
+      border-top: 1px solid #1d2942;
+      color: #91a1b9;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      nav a {
+        margin: 0 7px;
+      }
+
+      section {
+        padding: 50px 6%;
+      }
+    }
+  </style>
 </head>
 
 <body>
-  <h1>🚀 JahangirCoin</h1>
-  <h2>$JAHANGIR</h2>
 
-  <p>From $5 to the Moon 🌙</p>
+  <header>
+    <div class="logo">JahangirCoin</div>
 
-  <p>
-    JahangirCoin is a community-driven meme coin created
-    as a fun experiment in the crypto world.
-  </p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#vision">Vision</a>
+      <a href="#roadmap">Roadmap</a>
+    </nav>
+  </header>
 
-  <button>🚀 Join the Community</button>
+  <main>
+    <section class="hero">
+      <div class="coin">JAH</div>
+
+      <h1>Welcome to <span>JAHANGIRCOIN</span></h1>
+
+      <p>
+        A community-driven crypto project built around ambition,
+        transparency, and a vision for the future.
+        One idea can start a new journey.
+      </p>
+
+      <a class="button" href="#about">Explore the Project</a>
+      <a class="button secondary" href="#roadmap">View Roadmap</a>
+    </section>
+
+    <section id="about">
+      <h2 class="section-title">About <span>JAH</span></h2>
+
+      <div class="notice">
+        <p>
+          JahangirCoin (JAH) is an independent cryptocurrency project
+          in development. This website introduces the project's initial
+          vision and development plans.
+        </p>
+        <p>
+          Token deployment, blockchain verification, trading availability,
+          and other features will be announced only when officially confirmed.
+        </p>
+      </div>
+    </section>
+
+    <section id="vision">
+      <h2 class="section-title">Our <span>Vision</span></h2>
+
+      <div class="cards">
+        <div class="card">
+          <h3>🌍 Community</h3>
+          <p>
+            Build an open community where people can follow the project
+            and participate in its development.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>🔎 Transparency</h3>
+          <p>
+            Share accurate project information and publish important
+            updates as development progresses.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>🚀 Innovation</h3>
+          <p>
+            Explore blockchain technology and practical digital
+            solutions for the future.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="roadmap">
+      <h2 class="section-title">Project <span>Roadmap</span></h2>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Phase 1 — Foundation</h3>
+          <p>
+            Establish the project identity, website, documentation,
+            and community channels.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Phase 2 — Development</h3>
+          <p>
+            Research tokenomics, blockchain options, security,
+            and technical requirements.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Phase 3 — Evaluation</h3>
+          <p>
+            Evaluate audits, deployment costs, legal requirements,
+            and launch readiness before any public release.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 JahangirCoin. All rights reserved.</p>
+    <p>JAH is a project name and does not imply an available or tradable token.</p>
+  </footer>
+
 </body>
-</html>
+  </html>
